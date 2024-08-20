@@ -6,7 +6,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 ... GPIO.setmode(GPIO.BCM)
 ... GPIO.setwarnings(False)
 
-... pinout = 103
+... pinout = 13
 ... color = "Yellow"
 ... GPIO.setup(pinout,GPIO.OUT)
 ... print "LED on N" + str(pinout) + " " + color
