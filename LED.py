@@ -5,7 +5,8 @@ Type "help", "copyright", "credits" or "license()" for more information.
 ... import time
 ... GPIO.setmode(GPIO.BCM)
 ... GPIO.setwarnings(False)
-... pinout = 19
+
+... pinout = 12
 ... color = "Yellow"
 ... GPIO.setup(pinout,GPIO.OUT)
 ... print "LED on N" + str(pinout) + " " + color
