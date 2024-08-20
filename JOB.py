@@ -1,4 +1,5 @@
 
 #Job.py
 while True:
-    execfile('LED.py')
+    with open("LED.py") as infile:
+            exec(infile.read())
