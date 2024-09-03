@@ -29,4 +29,13 @@ jobs:
         run: |
           echo Hello raspberry!
           ls
+ 
+  run-python-script:
+    runs-on: self-hosted
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run Python script
+        run: python JOB.py       
     
