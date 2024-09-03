@@ -37,5 +37,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Run Python script
-        run: python JOB.py       
+        run: python LED.py       
     
